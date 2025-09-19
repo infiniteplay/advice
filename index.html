@@ -108,14 +108,6 @@
             align-items: center;
         }
 
-        .select-input {
-            border: 1px solid #d1d5db;
-            border-radius: 0.375rem;
-            padding: 0.5rem 0.75rem;
-            font-size: 0.875rem;
-            background-color: white;
-            color: #374151;
-
         .search-container {
             position: relative;
             flex: 1;
@@ -263,12 +255,9 @@
             <span class="page-title">Customer Payment Reconciliation</span>
         </div>
         <div class="user-section">
-            <select class="select-input" id="periodSelect">
-                    <option>This Month</option>
-                    <option>Last Month</option>
-                    <option>This Quarter</option>
-                    <option>This Year</option>
-            </select>
+            <button class="settings-btn">⚙</button>
+            <button class="notifications-btn">🔔</button>
+            <button class="user-btn">👤</button>
         </div>
     </div>
 
@@ -282,10 +271,13 @@
         </div>
 
         <div class="controls">
+            <button class="btn">🔍</button>
             <div class="search-container">
                 <span class="search-icon">🔍</span>
                 <input type="text" class="search-input" placeholder="Search by invoice number, gst, vendor name...">
             </div>
+            <button class="btn">🔄 Reset</button>
+            <button class="btn">Add Tag ▼</button>
             <button class="btn btn-success">+ payment</button>
             <button class="btn btn-primary">Actions ▼</button>
         </div>
