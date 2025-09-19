@@ -251,8 +251,8 @@
 <body>
     <div class="header">
         <div class="logo-section">
-            <div class="logo">O</div>
-            <span class="company-name">Ocean Beverages Pvt Ltd</span>
+            <img src="Finifi_Logo-trans.png" alt="FiniFi Logo" style="height: 25px;">
+            <span class="company-name">Customer Payment Reconciliation</span>
         </div>
         <div class="user-section">
             <button class="settings-btn">⚙</button>
